@@ -1,7 +1,16 @@
 import "./App.css"
+
 function App() {
   return (
     <div className="app">
+      <nav className="navbar">
+          <h3>Tui</h3>
+
+          <div className="nav-links"></div>
+          <a href="#home">Home</a>
+           <a href="#projcts">Projects</a>
+            <a href="#contact">Contact</a>
+      </nav>
       <section className="hero">
         <p className="hero-tag">
              👋 Hello, I'm
