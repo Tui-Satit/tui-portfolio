@@ -8,11 +8,15 @@ function App() {
 
           <div className="nav-links">
           <a href="#home">Home</a>
-           <a href="#projcts">Projects</a>
+           <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-            <button className="line-btn">
-               <a href="https://line.me/ti/p/@575kncik">LINE chat</a>
-            </button>
+           
+               <a 
+               href="https://line.me/ti/p/@575kncik"
+               target="_blank"
+               className="line-btn">LINE chat
+               </a>
+           
             </div>
             
       </nav>

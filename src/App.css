@@ -80,7 +80,7 @@ body {
       );
   transform: translateY(-2px);
   box-shadow:
-      0 10px 20px rgba(111 ,78,55,18);
+      0 10px 20px rgba(111 ,78,55,0.18);
 }
 
 .nav-links a:active {
@@ -88,13 +88,13 @@ body {
 }
 
 .line-btn {
-  background: #06c755;
+  background: #06c755 !important;
   color: white !important;
-  
+  padding: 12px 22px !important;
   border-radius: 999px;
   border: none;
   font-weight: bold;
-  transition: 0.25s ease;
+  text-decoration: none;
   box-shadow: 0 10px 20px rgba(6,199,85,0.25);
   animation: shake 2s infinite;
 }
@@ -131,20 +131,13 @@ body {
   }
 }
 
-.line-btn a:hover {
+.line-btn:hover {
   transform: translateY(-2px);
   background: #05b44c;
   box-shadow: 0 14px 28px rgba(6,199,85,0.32);
-  
-  transform: translateY(-2px);
-  box-shadow:
-      0 10px 20px rgba(111 ,78,55,18);
 
 }
 
-.line-btn a:active {
-  transform: scale(0.96);
-}
 
 .hero {
   text-align: center;
@@ -199,7 +192,7 @@ body {
     box-shadow: 0 12px 24px rgba(111,78,55,0.25);
 }
 
-.hero button :hover {
+.hero button:hover {
   transform: translateY(-3px);
 }
 
