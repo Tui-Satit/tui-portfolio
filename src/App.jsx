@@ -2,7 +2,7 @@ import "./App.css"
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <nav className="navbar">
           <h3>Tui</h3>
 
@@ -12,9 +12,11 @@ function App() {
             <a href="#contact">Contact</a>
            
                <a 
-               href="https://line.me/ti/p/@575kncik"
+               href="https://line.me/R/ti/p/@575kncik"
                target="_blank"
-               className="line-btn">LINE chat
+               className="line-btn"
+               >
+                LINE chat
                </a>
            
             </div>
