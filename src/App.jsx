@@ -53,26 +53,44 @@ function App() {
         <div className="project-grid">
           <div className="project-card">
             <img src="/images/coffee-shop.jpg" alt="Coffee Shop" />
-            <h3>Coffee Shop Website</h3>
+
+            <div className="project-content">
+              <div className="featrued-badge">
+                 ⭐ Featured Project
+              </div>
+                <h3>Coffee Shop Website</h3>
 
             <p>
               Modern coffee ordering website with Firebase realtime orders and
               LINE integration.
             </p>
-            <a href="https://coffee-shop-website.vercel.app"
+            <a href="https://tui-coffee-app.vercel.app/"
             target="_blank"
             >
              Live Demo
             </a>
+            </div>
+            <div className="project-tags">
+              <span>React</span>
+               <span>Firebase</span>
+                <span>LINE OA</span>
+                 <span>Vercel</span>
+            </div>
+          
           </div>
             
           <div className="project-card">
  <img src="/images/sign-shop.jpg" alt="Sign Shop Website" />
 
-             <h3>Sign Shop Website</h3>
+
+          <div className="project-content">
+              <div className="featrued-badge">
+                 ⭐ Featured Project
+              </div>
+              <h3>Sign Shop Website</h3>
 
              <p>
-              Clean business website for alocal sign shop with services, 
+              Clean business website for local sign shop with services, 
               portfolio and contact links. 
 
              </p>
@@ -81,6 +99,15 @@ function App() {
 
              Live Demo 
              </a>
+          </div>
+
+           <div className="project-tags">
+              <span>React</span>
+               <span>Responsive UI</span>
+                <span>  CSS</span>
+                 <span>Vercel</span>
+            </div>
+            
           </div>
         </div>
       </section>
@@ -127,7 +154,7 @@ function App() {
 
             <div className="skills-card">
               <h3>📱 Responsive UI</h3>
-              <p>Modile-friendly websites</p>
+              <p>Mobile-friendly websites</p>
             </div>
 
             <div className="skills-card">
@@ -142,7 +169,13 @@ function App() {
           </div>
 
       </section>
+       
 
+       <footer className="footer">
+        <h3>Tui</h3>
+        <p>Frontend Developer - React , Clean Web Design</p>
+        <p className="footer-copy">@ 2026 Tui. All rights reserved </p>
+       </footer>
       </main>
      
     </div>

@@ -215,12 +215,17 @@ body {
   .hero-desc {
     font-size: 16px;
   }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .projects {
-  padding: 0px 24px;
+  scroll-margin-top: 140px;
+  padding: 80px 24px;
   max-width: 1100px;
-  padding: 0 24px;
+ 
 }
 
 .projects h2 {
@@ -231,8 +236,10 @@ body {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
+  max-width: 1100px;
+  margin: 60px auto 0;
 }
 
 .project-card {
@@ -274,6 +281,40 @@ body {
   color: white;
   border-radius: 12px;
   text-decoration: none;
+}
+
+.project-content {
+  padding: 28px 24px 30px;
+}
+
+.project-content h3 {
+  padding: 0;
+  margin-bottom: 14px;
+}
+
+.project-content p {
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.project-content a {
+  margin: 0;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 24px 24px;
+}
+
+.project-tags span {
+  background: #f4ede6;
+  color: #6f4e37;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .about {
@@ -351,5 +392,37 @@ body {
   color: #276219;
   line-height: 1.7;
 }
+
+.footer {
+  padding: 60px 20px;
+  text-align: center;
+  background: #2d221b;
+  color: white;
+}
+
+.footer h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: #d8c9bd;
+  margin-bottom: 8px;
+}
+
+.footer-copy {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.featured-badge {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 8px 14px;
+  background: #fff3cd;
+  color: #8b5e3c;
+}
+
+
 
 
