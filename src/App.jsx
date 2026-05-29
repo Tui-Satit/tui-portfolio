@@ -10,6 +10,8 @@ function App() {
           <a href="#home">Home</a>
            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
            
                <a 
                href="https://line.me/R/ti/p/@575kncik"
@@ -81,6 +83,64 @@ function App() {
              </a>
           </div>
         </div>
+      </section>
+
+      <section className="about">
+        <p className="about-tag">
+             About Me
+        </p>
+
+        <h2>
+             Passionate Frontend Developer
+        </h2>
+
+        <p className="about-desc">
+           I enjoy building modern and clean web applications
+           for small businesses, shops and portfolios.
+
+           I focus on responsive UI, smooth user experience
+           and modern frontend technologies.
+        </p>
+
+      </section>
+
+      <section className="skills" id="skills">
+        <p className="skills-tag">My Skills</p>
+
+        <h2>Techologies I Use</h2>
+          <div className="skills-grid">
+
+            <div className="skills-card">
+              <h3>⚛️ React</h3>
+              <p>Modern forntend development</p>
+            </div>
+
+            <div className="skills-card">
+              <h3>🟨 JavaScript</h3>
+              <p>Interactive web applications</p>
+            </div>
+
+            <div className="skills-card">
+              <h3>🔥 Firebase</h3>
+              <p>Realtime database & backend</p>
+            </div>
+
+            <div className="skills-card">
+              <h3>📱 Responsive UI</h3>
+              <p>Modile-friendly websites</p>
+            </div>
+
+            <div className="skills-card">
+              <h3>🚀 Vercel</h3>
+              <p>Fast website deployment</p>
+            </div>
+
+            <div className="skills-card">
+              <h3>🎨 UI Design</h3>
+              <p>Clean and minimal interfaces</p>
+            </div>
+          </div>
+
       </section>
 
       </main>

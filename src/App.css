@@ -140,6 +140,7 @@ body {
 
 
 .hero {
+  margin-top: 60px;
   text-align: center;
   background: white;
   padding: 80px 40px;
@@ -274,4 +275,81 @@ body {
   border-radius: 12px;
   text-decoration: none;
 }
+
+.about {
+  max-width: 900xp;
+  text-align: center;
+  padding: 40px 24px;
+}
+
+.about-tag {
+  color: #8b5e3c;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+}
+
+.about h2 {
+  font-size: 52px;
+  margin-bottom: 28px;
+}
+
+.about-desc {
+  font-size: 20px;
+  line-height: 1.9;
+  color: #6d5a4d;
+}
+
+.skills {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.skills-tag {
+  color: #8b5e3c;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+}
+
+.skills h2 {
+  font-size: 52px;
+  margin-bottom: 20px;
+  color: #2d221b;
+}
+
+.skills-grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin-inline: auto;
+}
+
+.skills-card {
+  background: white;
+  padding: 36px 24px;
+  border-radius: 28px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  transition: 0.3s ease;
+}
+
+.skills-card:hover {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.skills-card h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.skills-card p {
+  color: #276219;
+  line-height: 1.7;
+}
+
 
