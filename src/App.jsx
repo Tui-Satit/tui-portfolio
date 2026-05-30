@@ -52,9 +52,10 @@ function App() {
       
 
       <section className="projects" id="projects">
-        <h2>Projects</h2>
+       <h2>Projects</h2>
 
         <div className="project-grid">
+           
           <div className="project-card">
             <img src="/images/coffee-shop.jpg" alt="Coffee Shop" />
 
