@@ -138,7 +138,7 @@ function App() {
       <section className="skills" id="skills">
         <p className="skills-tag">My Skills</p>
 
-        <h2>Techologies I Use</h2>
+        <h2>Technologies I Use</h2>
           <div className="skills-grid">
 
             <div className="skills-card">
