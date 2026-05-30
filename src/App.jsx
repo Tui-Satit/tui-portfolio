@@ -13,7 +13,9 @@ function App() {
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
            
-               <a 
+             
+            </div>
+              <a 
                href="https://line.me/R/ti/p/@575kncik"
                target="_blank"
                className="line-btn"
@@ -21,11 +23,11 @@ function App() {
                 LINE chat
                </a>
            
-            </div>
-            
       </nav>
 
       <main className="app">
+
+      
           <section className="hero">
         <p className="hero-tag">
              👋 Hello, I'm
@@ -46,6 +48,8 @@ function App() {
           View My Work
         </button>
       </section>
+
+      
 
       <section className="projects" id="projects">
         <h2>Projects</h2>

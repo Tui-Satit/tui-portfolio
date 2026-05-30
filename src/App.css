@@ -205,35 +205,56 @@ body {
 }
 
 @media (max-width: 600px) {
+
+  .app {
+    padding: 80px 16px 60px;
+    gap: 80px;
+  }
+
   .navbar {
-    top: 16px;
+    top: 14px;
     width: calc(100% - 24px);
-    padding: 18px 20px;
-    border-radius: 40px;
+    padding: 14px 16px;
+    border-radius: 32px;
+    overflow-x: auto;
+    justify-content: center;
   }
 
   .navbar h3 {
     font-size: 22px;
+    flex-shrink: 0;
   }
 
   .nav-links {
-    gap: 10px;
+    gap: 8px;
+    flex-shrink: 0;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none;
   }
 
   .nav-links a {
-    font-size: 16px;
+    font-size: 15px;
     padding: 8px 10px;
+    white-space: nowrap;
   }
 
   .line-btn {
-    display: none;
+    display: inline-block;
+    font-size: 14px !important;
+    padding: 8px 12px !important;
+    animation: none;
   }
 
   .hero {
     width: 100%;
-    max-width: 760px;
-    padding: 120px 22px 60px;
-    margin: 0 auto;
+   
+    padding: 120px 20px 60px;
+   
   }
 
   .hero h1 {
@@ -243,6 +264,14 @@ body {
   
   .hero h2 {
     font-size: 24px;
+  }
+
+  .projects h2,
+  .skills h2,
+  .about h2 {
+    font-size: 34px;
+    line-height: 1.2;
+    word-break: normal;
   }
 
   .hero p {
@@ -262,6 +291,7 @@ body {
 
   .project-card {
     width: 100%;
+    
   }
 
   .project-card img {
@@ -273,6 +303,13 @@ body {
   .projects h2 {
     font-size: 42px;
   }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+
 
   .skills h2,
   .about h2 {
