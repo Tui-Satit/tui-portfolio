@@ -114,6 +114,46 @@ function App() {
             </div>
             
           </div>
+
+           
+        </div>
+      </section>
+
+       <section className="projects" id="projects">
+       <h2>Web Applications</h2>
+
+        <div className="project-grid">
+           
+         
+           <div className="project-card">
+ <img src="/images/mobile-app.jpg" alt="Mobile App" />
+
+
+          <div className="project-content">
+              <div className="featrued-badge">
+                 ⭐ Featured Project
+              </div>
+              <h3>My To Do App</h3>
+
+             <p>
+              To Do List mobile app with React realtime database and responsive design for mobile devices.
+
+             </p>
+
+             <a href="" target="_blank">
+
+             Live Demo 
+             </a>
+          </div>
+
+           <div className="project-tags">
+              <span>React</span>
+               <span>Responsive UI</span>
+                <span>  CSS</span>
+                 <span>Vercel</span>
+            </div>
+            
+          </div>
         </div>
       </section>
 
